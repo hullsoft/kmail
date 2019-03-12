@@ -1,0 +1,30 @@
+{
+    "name": "hullsoft/Kmail",
+    "description": "HullSoft - Kmail - halper module",
+    "license": "GPL-2.0",
+    "type": "seat-plugin",
+    "authors": [
+        {
+            "name": "Nassen",
+            "email": "cezorcezor@gmail.com"
+        }
+    ],
+    
+    "autoload": {
+        "psr-4": {
+            "HullSoft\\Seat\\Kmail\\": "src/"
+        }
+    },
+    "require": {
+        "eveseat/eveapi": "^3.0",
+        "eveseat/web": "^3.0"
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HullSoft\\Seat\\Kmail\\KmailServiceProvider"
+            ]
+        }
+    }
+}
