@@ -19,7 +19,7 @@
         "eveseat/eveapi": "^3.0",
         "eveseat/web": "^3.0"
     },
-    "minimum-stability": "alpha",
+    "minimum-stability": "dev",
     "extra": {
         "laravel": {
             "providers": [
